@@ -8,7 +8,7 @@
 
 **Aliases are declared in the SELECT statement**
 
-## ORDER OF EXECUTION WITH WHERE AND ALIAS and ORDER BY and GROUP BY and HAVING
+## ORDER OF EXECUTION WITH WHERE AND ALIAS and ORDER BY and GROUP BY and HAVING clause
 
 - FROM
 - WHERE
