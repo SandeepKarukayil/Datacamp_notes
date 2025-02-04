@@ -1,5 +1,15 @@
 ## SQL is not processed in the order its written
 
+# Order of SQL Clauses
+
+- **Lexical Order** Order in which clauses are written.
+  ![Alt text](image-2.png)
+- **Logical Order** Order in which clauses are executed logically.
+
+![Alt text](image-1.png)
+
+- **Effective Order** True order of execution after the engine's optimizations.
+
 -- Order of execution
 
 1. **FROM people**

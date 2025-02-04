@@ -26,11 +26,16 @@
    - A field in a table, representing one attribute of the data.
    - Example: `Name` or `Age`.
 
-4. **Primary Key**:
+4. **Dataset**:
+
+   - A collection of tables is called as a dataset
+   - It is like a folder for tables
+
+5. **Primary Key**:
 
    - A unique identifier for each row in a table (e.g., `ID` in the above table).
 
-5. **Foreign Key**:
+6. **Foreign Key**:
    - A field in one table that links to the primary key in another table.
 
 ---
