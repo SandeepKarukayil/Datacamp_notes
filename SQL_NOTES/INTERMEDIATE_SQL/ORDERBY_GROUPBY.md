@@ -23,3 +23,14 @@ FROM films
 GROUP BY certification
 ORDER BY title_count DESC;
 ```
+
+## ORDER BY
+
+```sql
+SELECT name,class,level
+FROM fantasy.characters
+ORDER BY 2,1
+```
+
+- In the above example we order by the order of select clause so 2= CLASS and 1 = NAME
+-

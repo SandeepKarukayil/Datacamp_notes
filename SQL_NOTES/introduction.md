@@ -3,6 +3,7 @@
 - A **database** is a collection of tables.
   - Each table organizes data into **rows** (records) and **columns** (fields).
   - Databases are used to store, manage, and retrieve structured data efficiently.
+  - Key difference between databases and spreadsheets are that tables can be related unlike isolated tables in spreadsheets.
 
 ### Key Concepts in a Database:
 
@@ -31,11 +32,15 @@
    - A collection of tables is called as a dataset
    - It is like a folder for tables
 
-5. **Primary Key**:
+5. **Schema**:
+
+   - A schema is the name of columns and their data types.
+
+6. **Primary Key**:
 
    - A unique identifier for each row in a table (e.g., `ID` in the above table).
 
-6. **Foreign Key**:
+7. **Foreign Key**:
    - A field in one table that links to the primary key in another table.
 
 ---
@@ -68,6 +73,24 @@ SELECT name AS first_name, year_hired FROM Employees;
 ```
 
 2. **Aliasing** only works to the result of this particular queries
+
+## Constants
+
+- SQL allows us to give constants columns meaning having same data for whole column we can use it to give versions to data
+- constants can be numbers or strings
+- ````sql
+
+  SELECT name AS first_name, year_hired, 1 AS Level FROM Employees;```
+  ````
+
+## SELECT statement without column names
+
+- You can use select statement without column or table using constants
+- It is helpful in testing stuff
+
+```sql
+SELECT 'Raju' AS first_name, 18 AS age
+```
 
 ## VIEWS
 
